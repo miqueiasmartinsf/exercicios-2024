@@ -39,9 +39,54 @@ aside{
 .header-title{
   display: flex;
   flex-direction: column;
-  padding: 0px 36px;
 }
 
+.header-options{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.content{
+  width: 100%;
+}
+
+.select-container{
+  width: 97px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #cccccc;
+  padding: .5rem;
+}
+
+.select-container img{
+  width: 15px;
+}
+
+.select-container select{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.header-user-menu{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: 100%;
+}
+
+.user-label:nth-last-child(1){
+  font-size: 14px;
+  color: #333333;
+  text-align: end;
+}
+
+.user-label:nth-last-child(2){
+  font-size: 12px;
+  color: #333333;
+}
 
 
 
