@@ -88,6 +88,9 @@ aside{
   color: #333333;
 }
 
+.user-avatar{
+  position: relative;
+}
 
 
 .user-notification{
