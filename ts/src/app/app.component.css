@@ -36,6 +36,14 @@ aside{
   transition: 0.3s;
 }
 
+header{
+  width: 100%;
+  background-color: #FDF1EB;
+  display: flex;
+  align-items: center;
+  padding: 0px 36px;
+}
+
 .header-title{
   display: flex;
   flex-direction: column;
