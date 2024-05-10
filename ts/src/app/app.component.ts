@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DevChuva';
+  
+    onClick(event:any):void{
+        const element = event.target;
+        element.classList.add = "selected";
+    }
 }
