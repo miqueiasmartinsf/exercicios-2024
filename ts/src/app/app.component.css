@@ -92,6 +92,10 @@ aside{
   position: relative;
 }
 
+.user-avatar img{
+  width: 30px;
+  border-radius: 50%;
+}
 
 .user-notification{
   width: 30px;
