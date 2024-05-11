@@ -52,10 +52,10 @@ header {
   flex-direction: column;
 }
 
-.header-options{
+.header-options {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 35px;
 }
 
 .content{
