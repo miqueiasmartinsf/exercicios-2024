@@ -20,7 +20,7 @@ aside{
   align-items: center;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   flex-direction: column;
 }
