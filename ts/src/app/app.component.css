@@ -246,6 +246,10 @@ main {
 #discussion-content{
     padding: 15px 25px;
 }
+.discussion-paragraph{
+    text-align: center;
+    width: 55%;
+}
     visibility: hidden;
   }
 }
