@@ -1,4 +1,11 @@
 import { Component } from '@angular/core';
+import { Renderer2, ElementRef, ViewChild, AfterViewInit, OnInit } from '@angular/core';
+
+enum TopicState {
+    label,
+    create,
+    created
+}
 
 @Component({
   selector: 'app-root',
