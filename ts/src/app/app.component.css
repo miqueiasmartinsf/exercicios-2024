@@ -445,6 +445,9 @@ video{
     background-color: #E7E7E7;
     filter: blur(4px);
 }
+#topic-card-created{
+    position: relative;
+}
 .topic-blur-content{
     z-index: 10;
     display: flex;
