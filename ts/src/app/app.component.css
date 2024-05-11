@@ -231,6 +231,9 @@ main {
     top: 25%;
     color: white;
 }
+.video-title:hover{
+    visibility: hidden;
+}
     visibility: hidden;
   }
 }
