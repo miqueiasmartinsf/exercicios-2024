@@ -8,10 +8,11 @@ enum TopicState {
 }
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
+  })
+
 export class AppComponent implements OnInit {
 
     public seeMore: boolean = false;
@@ -23,11 +24,12 @@ export class AppComponent implements OnInit {
     }
 
     @ViewChild('topicContentParagraph') contentParagraph!: ElementRef;
-  
+
     onClick(event:any):void{
         const element = event.target;
         element.classList.add = "selected";
     }
+
     viewMore():void{
         console.log(this.seeMore);
         this.seeMore = !this.seeMore
@@ -49,4 +51,5 @@ export class AppComponent implements OnInit {
     handleTopicSubmit():void{
         this.stage = this.topicStage.created;
     }
+
 }
