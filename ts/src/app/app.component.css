@@ -145,6 +145,11 @@ main {
     flex-direction: column;
     gap: 15px;
 }
+.buttons-container{
+    justify-content: end;
+    display: flex;
+    gap: 5px;
+}
     display: none;
     visibility: hidden;
   }
