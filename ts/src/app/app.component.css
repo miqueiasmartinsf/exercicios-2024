@@ -243,6 +243,9 @@ main {
     justify-content: center;
     gap: 50px;
 }
+#discussion-content{
+    padding: 15px 25px;
+}
     visibility: hidden;
   }
 }
