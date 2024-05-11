@@ -1,15 +1,15 @@
-aside{
+aside {
   width: 220px;
   min-height: 100vh;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.406);
 }
 
-.app-component{
+.app-component {
   display: flex;
 }
 
-.sidebar-title-container{
-  background-image: linear-gradient(90deg, #FFB354, #EE7A3A);
+.sidebar-title-container {
+  background-image: linear-gradient(90deg, #ffb354, #ee7a3a);
   color: #ffff;
   text-align: center;
   width: 100%;
@@ -72,7 +72,7 @@ header {
 }
 
 .icon{
-  width: 15px;
+    width: 15px;
 }
 
 .select-container select {
@@ -88,6 +88,7 @@ header {
   width: 100%;
   gap: 5px;
 }
+
 .user-label {
   text-align: end;
 }
@@ -125,6 +126,7 @@ header {
   left: 60%;
   color: #ffff;
 }
+
 main {
   padding: 30px 45px;
 }
@@ -145,11 +147,13 @@ main {
     flex-direction: column;
     gap: 15px;
 }
+
 .buttons-container{
     justify-content: end;
     display: flex;
     gap: 5px;
 }
+
 .button-sm{
     background-color: #ee7a3a;
     color: #ffff;
@@ -161,6 +165,7 @@ main {
     outline: none;
     border-radius: 5px;
 }
+
 .video-container{
     position: relative;
 }
@@ -177,27 +182,32 @@ main {
     color: #ED7839;
     font-size: 14px;
 }
+
 .details-container{
     width: 80%;
     height: 100%;
     border: 1px solid #3333;
     border-radius: 5px;
 }
+
 .details-title{
     background-color: #FDF1EB;
     padding: .5rem .8rem;
     border-bottom: 1px solid #3333;
 }
+
 .details-content{
     padding: .5rem;
     font-size: 12px;
 }
+
 .details-content p{
     max-height: 550px;
     font-size: 18px;
     padding: 15px;
     overflow-y: scroll;
 }
+
 .details-container span{
     color: #808080;
 }
@@ -207,11 +217,13 @@ main {
     width: 100%;
     margin-top: 50px;
 }
+
 .topic-title-container{
     background-color: #FDF1EB;
     padding: .3rem .5rem;
     border-bottom: 1px solid #3333;
 }
+
 .topic-content{
     padding: 1rem;
 }
@@ -223,33 +235,41 @@ main {
     height: 100%;
     position: absolute;
 }
+
 .video-override:hover{
     display: none;
 }
+
 .video-title{
     visibility: visible;
     top: 25%;
     color: white;
 }
+
 .video-title:hover{
     visibility: hidden;
 }
+
 .discussion-content-title{
     text-align: center;
     color: #ED7839;
 }
+
 .discussion-icon-container{
     display: flex;
     justify-content: center;
     gap: 50px;
 }
+
 #discussion-content{
     padding: 15px 25px;
 }
+
 .discussion-paragraph{
     text-align: center;
     width: 55%;
 }
+
 .btn-create-topic{
     background-image: linear-gradient(180deg, #ffb354, #ee7a3a);
     color: #ffff;
@@ -267,19 +287,22 @@ main {
     font-weight: bolder;
     font-size: 18px;
 }
+
 .btn-show-more{
     color: #ee7a3a;
     cursor: pointer;
     padding: .5rem;
     display: inline;
 }
+
 .visible{
     visibility: visible;
 }
 
 .hidden{
     visibility: hidden;
-  }
+}
+
 #resume-topic-content{
     overflow: hidden;
     position: relative;
@@ -292,12 +315,17 @@ main {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
 }
+
+
 #resume-topic{
     min-height: 189px;
 }
+
 video{
     border-radius: 5px;
 }
+
+
 .discussion-content-label{
     display: flex;
     flex-direction: column;
@@ -305,6 +333,7 @@ video{
     justify-content: center;
     align-items: center;
 }
+
 .create-topic-btn-container{
     position: relative;
     width: 100%;
@@ -312,12 +341,15 @@ video{
     justify-content: center;
     height: 50px;
 }
+
 .create-topic-btn-container hr{
     height: 2px;
     background-color: #3333;
     width: 100%;
     border: none;
 }
+
+
 .create-topic{
     width: 100%;
     display: flex;
@@ -353,7 +385,7 @@ video{
     flex-direction: column;
     gap: 3px;
     margin-top: 15px;
-  }
+}
 
 .form-section textarea{
     width: 100%;
@@ -366,6 +398,7 @@ video{
     font-size: 16px;
     resize: none;
 }
+
 .submit-container{
     display: flex;
     background-color:#EAF1F2;
@@ -386,14 +419,17 @@ video{
     cursor: pointer;
     font-size: 16px;
 }
+
 .create-topic-form{
     width: 100%;
 }
+
 .topic-showcase{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .topic-card{
     border-radius: 3px;
     border: 1px solid #3333;
@@ -433,6 +469,8 @@ video{
     font-size: 14px;
     color: #000000;
 }
+
+
 .topic-blur-override{
     z-index: 5;
     position: absolute;
@@ -445,9 +483,11 @@ video{
     background-color: #E7E7E7;
     filter: blur(4px);
 }
+
 #topic-card-created{
     position: relative;
 }
+
 .topic-blur-content{
     z-index: 10;
     display: flex;
@@ -467,6 +507,7 @@ video{
     font-weight: bolder;
     color: rgb(41, 41, 41);
 }
+
 #topic-card-created .topic-card-header {
     filter: blur(2px);
 }
@@ -478,6 +519,7 @@ video{
 #topic-card-created .topic-card-body{
     filter: blur(2px);
 }
+
 #discussion a{
     color: #ED7839;
 }
