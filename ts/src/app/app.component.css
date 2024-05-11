@@ -326,6 +326,13 @@ video{
     align-items: center;
     margin-bottom: 50px;
 }
+
+.create-topic-title{
+    width: 100%;
+    text-align: center;
+    color: #5C5C5C;
+}
+
 .form-section input{
     outline: none;
     border: 1px solid #3333;
