@@ -306,5 +306,32 @@
                             Tem uma dúvida ou sugestão? Compartilhe seu feedback
                             com os autores!
                         </p>
+                        <form action="" onsubmit="" class="create-topic-form">
+                            <div class="form-section">
+                                <label for="">Assunto</label>
+                                <input
+                                class="subject"
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Defina um tópico sucinto para notificar os autores..."
+                                />
+                            </div>
+                            <div class="form-section">
+                                <label for="">Conteúdo</label>
+                                <textarea name="" id=""></textarea>
+                            </div>
+                            <div class="submit-container">
+                                <button
+                                    type="submit"
+                                    (click)="
+                                        handleTopicSubmit();
+                                        $event.preventDefault()
+                                    "
+                                >
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
                 </div>
 </div>
