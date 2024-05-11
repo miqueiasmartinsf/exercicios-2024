@@ -467,4 +467,6 @@ video{
     font-weight: bolder;
     color: rgb(41, 41, 41);
 }
+#discussion a{
+    color: #ED7839;
 }
