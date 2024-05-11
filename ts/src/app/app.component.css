@@ -25,10 +25,11 @@ aside{
   flex-direction: column;
 }
 
-.nav-list-item{
+.nav-list-item {
   border-bottom: solid 1px gray;
   padding: 7px 1.5rem;
-  color: #725C5C;
+  color: #725c5c;
+  cursor: pointer;
 }
 
 .nav-list-item:hover{
