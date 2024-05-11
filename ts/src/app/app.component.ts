@@ -28,4 +28,25 @@ export class AppComponent implements OnInit {
         const element = event.target;
         element.classList.add = "selected";
     }
+    viewMore():void{
+        console.log(this.seeMore);
+        this.seeMore = !this.seeMore
+    }
+
+    showLess():void{
+        console.log(this.seeMore);
+        this.seeMore = !this.seeMore
+    }
+
+    public topicStage = TopicState
+    public stage = this.topicStage.label;
+
+
+    createNewTopic():void {
+        this.stage = this.topicStage.create; 
+    }
+
+    handleTopicSubmit():void{
+        this.stage = this.topicStage.created;
+    }
 }
