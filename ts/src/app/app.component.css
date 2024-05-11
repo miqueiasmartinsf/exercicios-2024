@@ -285,6 +285,13 @@ main {
     position: relative;
 }
 
+.show-less{
+    display: -webkit-box;
+    line-height: 1.2em;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
     margin-top: 15px;
   }
   h2, a {
