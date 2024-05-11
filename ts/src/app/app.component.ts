@@ -12,7 +12,17 @@ enum TopicState {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+
+    public seeMore: boolean = false;
+
+    constructor(private renderer: Renderer2, private elementRef: ElementRef) { }
+
+    ngOnInit(): void {
+        
+    }
+
+    @ViewChild('topicContentParagraph') contentParagraph!: ElementRef;
   
     onClick(event:any):void{
         const element = event.target;
