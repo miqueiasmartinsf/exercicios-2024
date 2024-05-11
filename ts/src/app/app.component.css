@@ -134,9 +134,10 @@ main {
     display: flex;
 }
 
-  .card.highlight-card span {
-    margin-left: 72px;
-  }
+#main-content-section h2{
+    color: #ee7a3a;
+    font-size: 20px;
+}
 
   svg#rocket-smoke {
     right: 120px;
