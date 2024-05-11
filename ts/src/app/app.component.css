@@ -295,6 +295,9 @@ main {
 #resume-topic{
     min-height: 189px;
 }
+video{
+    border-radius: 5px;
+}
     margin-top: 15px;
   }
   h2, a {
