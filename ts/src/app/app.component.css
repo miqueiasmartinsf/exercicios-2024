@@ -81,11 +81,13 @@ header {
   background-color: transparent;
 }
 
-.header-user-menu{
+.header-user-menu {
   display: flex;
   align-items: center;
   font-size: 14px;
   width: 100%;
+  gap: 5px;
+}
 }
 
 .user-label:nth-last-child(1){
