@@ -386,4 +386,9 @@ video{
     cursor: pointer;
     font-size: 16px;
 }
+.topic-showcase{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 }
