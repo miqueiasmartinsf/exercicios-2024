@@ -238,6 +238,11 @@ main {
     text-align: center;
     color: #ED7839;
 }
+.discussion-icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
     visibility: hidden;
   }
 }
