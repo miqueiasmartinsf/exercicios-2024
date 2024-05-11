@@ -173,6 +173,10 @@ main {
     align-items: end;
 }
 
+.video-label-title{
+    color: #ED7839;
+    font-size: 14px;
+}
     display: none;
     visibility: hidden;
   }
