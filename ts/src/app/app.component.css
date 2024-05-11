@@ -37,12 +37,14 @@ aside{
   transition: 0.3s;
 }
 
-header{
+header {
   width: 100%;
-  background-color: #FDF1EB;
+  background-color: #fdf1eb;
   display: flex;
   align-items: center;
   padding: 0px 36px;
+  height: 85px;
+  justify-content: space-between;
 }
 
 .header-title{
