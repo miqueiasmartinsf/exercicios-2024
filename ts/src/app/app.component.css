@@ -280,10 +280,11 @@ main {
 .hidden{
     visibility: hidden;
   }
+#resume-topic-content{
+    overflow: hidden;
+    position: relative;
 }
 
-#required-elements {
-  h3 {
     margin-top: 15px;
   }
   h2, a {
