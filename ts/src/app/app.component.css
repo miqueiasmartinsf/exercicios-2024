@@ -47,7 +47,7 @@ header {
   justify-content: space-between;
 }
 
-.header-title{
+.header-title {
   display: flex;
   flex-direction: column;
 }
