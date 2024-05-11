@@ -250,6 +250,23 @@ main {
     text-align: center;
     width: 55%;
 }
+.btn-create-topic{
+    background-image: linear-gradient(180deg, #ffb354, #ee7a3a);
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem 1.8rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    gap: 10px;
+    position: absolute;
+    top: -35%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+}
     visibility: hidden;
   }
 }
