@@ -305,6 +305,13 @@ video{
     justify-content: center;
     align-items: center;
 }
+.create-topic-btn-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
     margin-top: 15px;
   }
   h2, a {
