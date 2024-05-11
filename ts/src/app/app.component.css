@@ -150,6 +150,17 @@ main {
     display: flex;
     gap: 5px;
 }
+.button-sm{
+    background-color: #ee7a3a;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
     display: none;
     visibility: hidden;
   }
