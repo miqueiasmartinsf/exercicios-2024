@@ -391,4 +391,43 @@ video{
     flex-direction: column;
     gap: 20px;
 }
+.topic-card{
+    border-radius: 3px;
+    border: 1px solid #3333;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: start;
+}
+
+.topic-card p{
+    color: #808080;
+}
+
+.topic-card h3{
+    color: #ED7839;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.topic-card-header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.topic-card-options{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #808080;
+}
+
+.topic-card-header p{
+    font-size: 14px;
+    color: #000000;
+}
 }
