@@ -312,6 +312,12 @@ video{
     justify-content: center;
     height: 50px;
 }
+.create-topic-btn-container hr{
+    height: 2px;
+    background-color: #3333;
+    width: 100%;
+    border: none;
+}
     margin-top: 15px;
   }
   h2, a {
