@@ -162,9 +162,15 @@
                             </p>
                         </div>
                     </div>
+            <section class="topic" id="resume-topic">
                 <div class="topic-title-container">
                     <h2>Resumo</h2>
                 </div>
+                <div
+                    class="topic-content show-less"
+                    id="resume-topic-content"
+                    [ngClass]="{ 'show-less': !seeMore }"
+                >
                     <p
                         class="topic-content-paragraph show-less"
                         #topicContentParagraph
@@ -272,5 +278,5 @@
                         nisi tellus
                     </p>
   </div>
-
+            </section>
 </div>
