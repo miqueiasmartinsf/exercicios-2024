@@ -234,6 +234,10 @@ main {
 .video-title:hover{
     visibility: hidden;
 }
+.discussion-content-title{
+    text-align: center;
+    color: #ED7839;
+}
     visibility: hidden;
   }
 }
