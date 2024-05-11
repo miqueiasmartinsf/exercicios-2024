@@ -292,6 +292,9 @@ main {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
 }
+#resume-topic{
+    min-height: 189px;
+}
     margin-top: 15px;
   }
   h2, a {
