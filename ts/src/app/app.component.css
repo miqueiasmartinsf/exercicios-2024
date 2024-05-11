@@ -433,4 +433,23 @@ video{
     font-size: 14px;
     color: #000000;
 }
+.topic-blur-content{
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    width: 100%;
+    height: 100%;
+}
+
+.topic-blur-content p{
+    font-weight: bolder;
+    color: rgb(41, 41, 41);
+}
 }
