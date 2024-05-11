@@ -177,6 +177,12 @@ main {
     color: #ED7839;
     font-size: 14px;
 }
+.details-container{
+    width: 80%;
+    height: 100%;
+    border: 1px solid #3333;
+    border-radius: 5px;
+}
     display: none;
     visibility: hidden;
   }
