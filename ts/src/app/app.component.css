@@ -226,6 +226,11 @@ main {
 .video-override:hover{
     display: none;
 }
+.video-title{
+    visibility: visible;
+    top: 25%;
+    color: white;
+}
     visibility: hidden;
   }
 }
