@@ -183,6 +183,11 @@ main {
     border: 1px solid #3333;
     border-radius: 5px;
 }
+.details-title{
+    background-color: #FDF1EB;
+    padding: .5rem .8rem;
+    border-bottom: 1px solid #3333;
+}
     display: none;
     visibility: hidden;
   }
