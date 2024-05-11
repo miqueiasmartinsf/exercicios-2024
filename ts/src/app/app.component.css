@@ -267,6 +267,12 @@ main {
     font-weight: bolder;
     font-size: 18px;
 }
+.btn-show-more{
+    color: #ee7a3a;
+    cursor: pointer;
+    padding: .5rem;
+    display: inline;
+}
     visibility: hidden;
   }
 }
