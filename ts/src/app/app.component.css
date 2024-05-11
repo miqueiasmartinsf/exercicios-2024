@@ -223,7 +223,9 @@ main {
     height: 100%;
     position: absolute;
 }
+.video-override:hover{
     display: none;
+}
     visibility: hidden;
   }
 }
