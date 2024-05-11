@@ -188,6 +188,10 @@ main {
     padding: .5rem .8rem;
     border-bottom: 1px solid #3333;
 }
+.details-content{
+    padding: .5rem;
+    font-size: 12px;
+}
     display: none;
     visibility: hidden;
   }
