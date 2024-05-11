@@ -198,6 +198,10 @@ main {
     padding: 15px;
     overflow-y: scroll;
 }
+.details-container span{
+    color: #808080;
+}
+
     display: none;
     visibility: hidden;
   }
