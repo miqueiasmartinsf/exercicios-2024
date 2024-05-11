@@ -62,13 +62,13 @@ header {
   width: 100%;
 }
 
-.select-container{
+.select-container {
   width: 97px;
   height: 34px;
   display: flex;
   align-items: center;
   border: solid 1px #cccccc;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .select-container img{
