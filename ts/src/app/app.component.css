@@ -467,6 +467,17 @@ video{
     font-weight: bolder;
     color: rgb(41, 41, 41);
 }
+#topic-card-created .topic-card-header {
+    filter: blur(2px);
+}
+
+#topic-card-created .topic-card-options{
+    filter: blur(2px);
+}
+
+#topic-card-created .topic-card-body{
+    filter: blur(2px);
+}
 #discussion a{
     color: #ED7839;
 }
