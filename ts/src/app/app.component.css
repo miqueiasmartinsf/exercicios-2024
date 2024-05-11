@@ -273,6 +273,11 @@ main {
     padding: .5rem;
     display: inline;
 }
+.visible{
+    visibility: visible;
+}
+
+.hidden{
     visibility: hidden;
   }
 }
