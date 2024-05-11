@@ -88,6 +88,8 @@ header {
   width: 100%;
   gap: 5px;
 }
+.user-label {
+  text-align: end;
 }
 
 .user-label:nth-last-child(1){
