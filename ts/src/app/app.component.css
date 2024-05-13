@@ -581,3 +581,9 @@ footer p{
     width: 75%;
     font-size: 17px;
 }
+
+.answered-topic{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
