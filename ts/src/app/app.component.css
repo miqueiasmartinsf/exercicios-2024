@@ -438,12 +438,7 @@ video{
 .topic-card{
     border-radius: 3px;
     border: 1px solid #3333;
-    padding: 15px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    text-align: start;
+    min-height: 130px;
 }
 
 .topic-card p{
