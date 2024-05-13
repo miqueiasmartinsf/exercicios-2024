@@ -524,3 +524,8 @@ video{
 #discussion a{
     color: #ED7839;
 }
+
+.comments-container{
+    display: flex;
+    flex-direction: column;
+}
