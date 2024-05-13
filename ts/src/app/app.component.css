@@ -559,3 +559,12 @@ video{
 .answered-topic-card h3{
     color: #5C5C5C;
 }
+
+.answered-topic-card-role{
+    display: flex;
+    gap: 10px;
+    color: #ED7839;
+    font-weight: bolder;
+    font-size: 16px;
+    align-items: center;
+}
