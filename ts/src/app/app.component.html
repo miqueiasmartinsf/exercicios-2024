@@ -339,7 +339,7 @@
                             <div class="form-section">
                                 <label for="">Assunto</label>
                                 <input
-                                class="subject"
+                                    class="subject"
                                     type="text"
                                     name=""
                                     id=""
@@ -393,67 +393,84 @@
                         </div>
                     </div>
                     <div class="topic-showcase">
-                        <div class="topic-card" *ngIf="stage === topicStage.created" id="topic-card-created">
-                            <div class="topic-blur-content">
-                                <img src="../assets/created.png" alt="">
-                                <p>Aguardando feedback dos autores</p>
-                                <a href="">Editar tópico</a>
-                            </div>
-                            <div class="topic-blur-override">
+                        <div
+                            class="topic-card"
+                            *ngIf="stage === topicStage.created"
+                            id="topic-card-created"
+                        >
+                            <div class="topic-card-content">
+                                <div class="topic-blur-content">
+                                    <img src="../assets/created.png" alt="" />
+                                    <p>Aguardando feedback dos autores</p>
+                                    <a href="">Editar tópico</a>
+                                </div>
+                                <div class="topic-blur-override"></div>
+                                <div class="topic-card-header">
+                                    <h3>Assunto da pergunta aparece aqui</h3>
+                                    <p>Carlos Henrique Santos</p>
+                                </div>
 
-                            </div>
-                            <div class="topic-card-header">
-                                <h3>Assunto da pergunta aparece aqui</h3>
-                                <p>Carlos Henrique Santos</p>
-                            </div>
-
-                            <p class="topic-card-body">
+                                <p class="topic-card-body">
                                     Comecinho da pergunta aparece aqui resente
                                     relato inscreve-se no campo da análise da
                                     dimensão e impacto de processo formativo
                                     situado impacto de processo formativo
                                     processo...
-                            </p>
+                                </p>
 
-                            <div class="topic-card-options">
+                                <div class="topic-card-options">
                                     <img src="../assets/info.png" alt="" />
                                     <img src="../assets/favoritar.png" alt="" />
-                                <span>1 like</span>
-                                <span>1 resposta</span>
+                                    <span>1 like</span>
+                                    <span>1 resposta</span>
+                                </div>
                             </div>
                         </div>
                         <div class="topic-card">
-                            <div class="topic-card-header">
-                                <h3>Assunto da pergunta aparece aqui</h3>
-                                <p>Carlos Henrique Santos</p>
-                            </div>
+                            <div class="topic-card-content">
+                                <div class="topic-card-header">
+                                    <h3>Assunto da pergunta aparece aqui</h3>
+                                    <p>Carlos Henrique Santos</p>
+                                </div>
 
-                            <p>
-                                Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                            </p>
+                                <p>
+                                    Comecinho da pergunta aparece aqui resente
+                                    relato inscreve-se no campo da análise da
+                                    dimensão e impacto de processo formativo
+                                    situado impacto de processo formativo
+                                    processo...
+                                </p>
 
-                            <div class="topic-card-options">
-                                <img src="../assets/info.png" alt="">
-                                <img src="../assets/favoritar.png" alt="">
-                                <span>1 like</span>
-                                <span>1 resposta</span>
+                                <div class="answered-topic">
+                                    <img src="../assets/info.png" alt="" />
+                                    <img src="../assets/favoritar.png" alt="" />
+                                    <span>1 like</span>
+                                    <span>1 resposta</span>
+                                </div>
                             </div>
                         </div>
                         <div class="topic-card">
-                            <div class="topic-card-header">
-                                <h3>Assunto da pergunta aparece aqui</h3>
-                                <p>Carlos Henrique Santos</p>
+                            <div class="topic-card-content">
+                                <div class="topic-card-header">
+                                    <h3>Assunto da pergunta aparece aqui</h3>
+                                    <p>Carlos Henrique Santos</p>
+                                </div>
+
+                                <p>
+                                    Comecinho da pergunta aparece aqui resente
+                                    relato inscreve-se no campo da análise da
+                                    dimensão e impacto de processo formativo
+                                    situado impacto de processo formativo
+                                    processo...
+                                </p>
+
+                                <div class="answered-topic">
+                                    <button class="ops-topic-subject" (click)="commentsToggle()"><img src="../assets/info.png" alt="" /></button>
+                                    <img src="../assets/favoritar.png" alt="" />
+                                    <span>1 like</span>
+                                    <span>1 resposta</span>
+                                </div>
                             </div>
-
-                            <p>
-                                Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                            </p>
-
-                            <div class="topic-card-options">
-                                <img src="../assets/info.png" alt="">
-                                <img src="../assets/favoritar.png" alt="">
-                                <span>1 like</span>
-                                <span>1 resposta</span>
                             <div class="comments-container" *ngIf="seeComments">
                                 <div class="answered-topic-card">
                                     <div class="answered-topic-card-header">
