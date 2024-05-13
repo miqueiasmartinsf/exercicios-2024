@@ -486,6 +486,7 @@ video{
 
 #topic-card-created{
     position: relative;
+    background-color: #E7E7E7;
 }
 
 .topic-blur-content{
