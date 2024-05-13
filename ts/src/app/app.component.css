@@ -587,3 +587,8 @@ footer p{
     gap: 15px;
     align-items: center;
 }
+
+.ops-topic-subject{
+    outline: none;
+    border: none;
+}
