@@ -529,3 +529,14 @@ video{
     display: flex;
     flex-direction: column;
 }
+
+.answered-topic-card{
+    border: 1px solid #3333;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: start;
+    height: 130px;
+}
