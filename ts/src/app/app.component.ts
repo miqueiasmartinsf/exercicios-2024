@@ -52,4 +52,10 @@ export class AppComponent implements OnInit {
         this.stage = this.topicStage.created;
     }
 
+    public seeComments: boolean = false;
+
+    commentsToggle(): void {
+        this.seeComments = !this.seeComments
+    }
+
 }
