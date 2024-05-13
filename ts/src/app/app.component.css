@@ -510,15 +510,15 @@ video{
 }
 
 #topic-card-created .topic-card-header {
-    filter: blur(2px);
+    filter: blur(8px);
 }
 
 #topic-card-created .topic-card-options{
-    filter: blur(2px);
+    filter: blur(8px);
 }
 
 #topic-card-created .topic-card-body{
-    filter: blur(2px);
+    filter: blur(8px);
 }
 
 #discussion a{
