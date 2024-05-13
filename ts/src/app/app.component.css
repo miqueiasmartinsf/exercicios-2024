@@ -546,3 +546,12 @@ video{
     justify-content: space-between;
     align-items: center;
 }
+
+.topic-card-content{
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: start;
+}
