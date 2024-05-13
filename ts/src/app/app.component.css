@@ -555,3 +555,7 @@ video{
     justify-content: center;
     text-align: start;
 }
+
+.answered-topic-card h3{
+    color: #5C5C5C;
+}
