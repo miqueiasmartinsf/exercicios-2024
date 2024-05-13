@@ -295,6 +295,9 @@ main {
     cursor: pointer;
     padding: .5rem;
     display: inline;
+    outline: none;
+    border: none;
+    background-color: transparent;
 }
 
 .visible{
