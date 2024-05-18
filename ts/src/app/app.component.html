@@ -1,7 +1,10 @@
 <div class="app-component">
-    <aside>
+    <aside [ngClass]="{ open: toggleMobileMenu }">
         <div class="sidebar-title-container">
             <h1>SLACA 2019</h1>
+            <button class="mobile-close-menu-btn" (click)="mobileMenuClose()">
+                <img src="../assets/close.png" alt="" class="icon" />
+            </button>
         </div>
         <div class="sidebar-img-container">
             <img src="../assets/dewey 4deway.png" alt="" />
@@ -33,15 +36,23 @@
     </aside>
     <div class="content">
         <header>
-            <div class="header-title">
-                <p>
-                    Anais do Simpósio Latino Americano de Ciências de Alimentos
-                </p>
-                <h2>
-                    Anais do 13º Simpósio Latino Americano de Ciência de
-                    Alimentos
-                </h2>
-                <p>ISSN: 1234-5678</p>
+            <div class="header-wrapper">
+                <div class="mobile-menu" (click)="mobileMenuOpen()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div class="header-title">
+                    <p>
+                        Anais do Simpósio Latino Americano de Ciências de
+                        Alimentos
+                    </p>
+                    <h2>
+                        Anais do 13º Simpósio Latino Americano de Ciência de
+                        Alimentos
+                    </h2>
+                    <p>ISSN: 1234-5678</p>
+                </div>
             </div>
             <div class="header-options">
                 <div>
@@ -73,7 +84,7 @@
                         município de Campinas/SP
                     </h2>
                     <div class="video-container">
-                        <video width="1100" height="630" controls>
+                        <video controls>
                             <source
                                 src="../assets/waves.mp4"
                                 type="video/mp4"
@@ -352,7 +363,7 @@
                             </div>
                             <div class="submit-container">
                                 <button
-                                class="btn-submit-form"
+                                    class="btn-submit-form"
                                     type="submit"
                                     (click)="
                                         handleTopicSubmit();
@@ -465,7 +476,12 @@
                                 </p>
 
                                 <div class="answered-topic">
-                                    <button class="ops-topic-subject" (click)="commentsToggle()"><img src="../assets/info.png" alt="" /></button>
+                                    <button
+                                        class="ops-topic-subject"
+                                        (click)="commentsToggle()"
+                                    >
+                                        <img src="../assets/info.png" alt="" />
+                                    </button>
                                     <img src="../assets/favoritar.png" alt="" />
                                     <span>1 like</span>
                                     <span>1 resposta</span>
@@ -497,7 +513,9 @@
                                 <div class="answered-topic-card">
                                     <div class="answered-topic-card-header">
                                         <h3>Carlos Henrique Santos</h3>
-                                        <div class="answered-topic-card-role"></div>
+                                        <div
+                                            class="answered-topic-card-role"
+                                        ></div>
                                     </div>
                                     <p class="answered-topic-card-content">
                                         Consegui entender melhor agora! Parece

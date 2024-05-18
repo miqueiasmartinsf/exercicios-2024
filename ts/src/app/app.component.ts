@@ -20,6 +20,10 @@ enum TopicState {
 })
 export class AppComponent implements OnInit {
     public seeMore: boolean = false;
+    public topicStage = TopicState;
+    public stage = this.topicStage.label;
+    public seeComments: boolean = false;
+    public toggleMobileMenu: boolean = false;
 
     constructor(private renderer: Renderer2, private elementRef: ElementRef) {}
 
@@ -42,9 +46,6 @@ export class AppComponent implements OnInit {
         this.seeMore = !this.seeMore;
     }
 
-    public topicStage = TopicState;
-    public stage = this.topicStage.label;
-
     createNewTopic(): void {
         this.stage = this.topicStage.create;
     }
@@ -53,10 +54,17 @@ export class AppComponent implements OnInit {
         this.stage = this.topicStage.created;
     }
 
-    public seeComments: boolean = false;
-
     commentsToggle(): void {
-        this.seeComments = !this.seeComments
+        this.seeComments = !this.seeComments;
     }
 
+    mobileMenuClose(): void {
+        console.log(this.toggleMobileMenu);
+        this.toggleMobileMenu = false;
+    }
+
+    mobileMenuOpen():void{
+        console.log(this.toggleMobileMenu);
+        this.toggleMobileMenu = true;
+    }
 }
